@@ -40,8 +40,11 @@ The system will be built with the following technologies:
   
 Key communication protocols:
 - **Websockets:** Used for real-time communication during live games and chat.
-- **HTTP Long Polling:** Utilized for authentication, retrieving user information, and accessing statistics.
+- **HTTP Normal Requests**: Used for authentication and retrieving user information, ensuring efficient and straightforward data exchange without unnecessary overhead.
+- **HTTP Long Polling**: Employed for fetching updated statistics, enabling periodic updates without requiring persistent connections.
 - **Server-Sent Events (SSE):** Employed for game streaming to ensure efficient one-way communication for live updates.
 
 Security:
 - **Authentication:** To secure authentication OAuth 2.0 and JWS will be used.
+
+**Key Communication Protocols:**
