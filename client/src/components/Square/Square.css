@@ -1,0 +1,12 @@
+.square {
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+.light {
+    background-color: lightgray;
+}
+
+.dark {
+    background-color: white;
+}
